@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorry! (simplified)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="board">
+    <div id="center">
+      <h1>Sorry!</h1>
+      <p id="turn"></p>
+      <p id="turncount"></p>
+      <p id="scoreboard"></p>
+      <div class="rollrow">
+        <div id="die" aria-label="die"></div>
+        <button id="roll">Roll die</button>
+      </div>
+      <p id="rolltext"></p>
+      <p id="message" role="status"></p>
+      <div class="panels">
+        <div class="panel"><h3>Red Start</h3><div id="start-red" class="slots"></div></div>
+        <div class="panel"><h3>Blue Start</h3><div id="start-blue" class="slots"></div></div>
+        <div class="panel"><h3>Red Home</h3><div id="home-red" class="slots"></div></div>
+        <div class="panel"><h3>Blue Home</h3><div id="home-blue" class="slots"></div></div>
+      </div>
+      <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="fullscreen">Fullscreen</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
